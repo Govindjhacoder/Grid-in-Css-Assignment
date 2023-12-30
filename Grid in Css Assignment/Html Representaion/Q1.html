@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid
+
+    </title>
+    <style>
+       
+       .all{ display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+
+grid-template-rows: repeat(3, 250px);
+
+gap: 20px;
+
+padding: 20px;}
+img {
+
+height: 100%;
+
+width: 100%;
+
+border-radius: 10px;
+border: 2px solid rgb(206, 25, 25);
+}
+
+.item-1 {
+
+grid-column-start: 1;
+
+grid-column-end: 3;
+
+grid-row-start: 1;
+
+grid-row-end: 2;
+
+}
+
+.item-2{  grid-column-start: 2;
+
+grid-column-end: 3;
+
+grid-row-start: 2;
+
+grid-row-end: 3;}
+
+.item-3{grid-column-start: 3;
+
+grid-column-end: 4;
+
+grid-row-start: 1;
+
+grid-row-end: 2;}
+.item-4{grid-column-start: 1;
+
+grid-column-end: 2;
+
+grid-row-start: 2;
+
+grid-row-end: 4;}
+.item-5{  grid-column-start: 2;
+
+grid-column-end: 3;
+
+grid-row-start: 3;
+
+grid-row-end: 4;}
+.item-6{ grid-column-start: 3;
+
+grid-column-end: 4;
+
+grid-row-start: 2;
+
+grid-row-end: 4;}
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="item-1">
+            <img src="https://i.pinimg.com/564x/1e/b9/44/1eb9446c39a0a9a196088752dbb0e82e.jpg" alt="">
+        </div>
+        <div class="item-2">
+            <img src="https://i.pinimg.com/564x/f8/d2/f9/f8d2f9ce873c5f2a6e94cd3440a84a35.jpg" alt="">
+        </div>
+        <div class="item-3">
+            <img src="https://i.pinimg.com/564x/56/b7/a9/56b7a9dc31ae4d91ef404c95eced347f.jpg" alt="">
+        </div>
+        <div class="item-4">
+            <img src="https://i.pinimg.com/564x/55/94/44/559444673c18229d354bc150cb0cddb6.jpg" alt="">
+        </div>
+        <div class="item-5">
+            <img src="https://i.pinimg.com/564x/01/07/c1/0107c187e63ffdd22902960f9491e364.jpg" alt="">
+        </div>
+        <div class="item-6">
+            <img src="https://i.pinimg.com/564x/f8/38/f1/f838f14a0ccb7f8e086d5d94750980d6.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

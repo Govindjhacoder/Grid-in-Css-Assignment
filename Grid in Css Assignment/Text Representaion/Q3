@@ -1,0 +1,3 @@
+In CSS Grid Layout, the grid-auto-row and grid-auto-column properties are used to define the size of implicitly created rows and columns 
+when grid items are placed outside the explicitly defined grid area. 
+These properties allow you to set the size of the rows or columns that are automatically generated to accommodate the grid items.
